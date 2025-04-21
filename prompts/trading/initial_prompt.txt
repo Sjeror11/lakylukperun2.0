@@ -1,0 +1,27 @@
+Analyze the provided market data, current portfolio state, and relevant historical memory entries.
+Based on this analysis, determine if a trading signal should be generated for any specific symbol.
+
+Input Data Format:
+- Market Data: [Provide structure, e.g., latest quotes, bars]
+- Portfolio: [Provide structure, e.g., cash, positions, open orders]
+- Memory Entries: [Provide structure, e.g., recent trades, past signals, market events]
+
+Output Format (JSON):
+Return a JSON object containing a 'signal' key.
+If a trade is recommended:
+{
+  "signal": {
+    "symbol": "STOCK_SYMBOL",
+    "action": "BUY" | "SELL",
+    "confidence": 0.0-1.0, // Confidence score for the signal
+    "reasoning": "Brief explanation for the signal",
+    "target_price": optional_float, // Optional target price
+    "stop_loss": optional_float // Optional stop loss price
+  }
+}
+If no trade is recommended:
+{
+  "signal": null
+}
+
+Consider risk management principles and the overall market context. Provide clear reasoning for any generated signal.

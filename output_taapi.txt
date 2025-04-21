@@ -1,0 +1,30 @@
+==================================================
+PERUN TRADING SYSTEM - TAAPI.IO VERZE (ZJEDNODUŠENÁ)
+==================================================
+Spouštím obchodní systém pro kryptoměny 24/7 s využitím TAAPI.IO.
+Obchodované symboly: BTCUSD
+Strategie: RSI Strategy
+Popis: Jednoduchá strategie využívající RSI indikátor pro generování obchodních signálů.
+==================================================
+
+📊 Informace o účtu:
+ID účtu: 6c74ce9e-3ae3-471e-8317-ede4c00650be
+Status účtu: ACTIVE
+Hotovost: $88.20
+Hodnota portfolia: $88.20
+
+==================== CYKLUS 1 (2025-04-21 14:58:43) ====================
+
+📈 Aktuální krypto pozice (0):
+
+📋 Aktuální krypto objednávky (0):
+🔍 Analyzuji BTCUSD...
+❌ Nepodařilo se získat všechny indikátory pro BTCUSD
+  BTCUSD: Žádný obchodní signál
+
+⏱️ Čekám 900 sekund na další cyklus...
+
+
+�� Obchodní systém ukončen uživatelem
+💰 Konečná hodnota portfolia: $88.20
+📊 Zisk/Ztráta: $0.00 (0.00%)

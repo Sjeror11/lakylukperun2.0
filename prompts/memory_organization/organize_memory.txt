@@ -1,0 +1,27 @@
+Analyze the provided memory entry, which represents a past event, observation, or action within the trading system.
+Generate relevant metadata to help categorize and understand this memory.
+
+Memory Entry Content:
+```
+{memory_content}
+```
+
+Memory Entry Context:
+- Timestamp: {timestamp}
+- Source: {source_component} // e.g., AIService, ExecutionService, MarketEvent
+- Type: {entry_type} // e.g., TradeSignal, OrderPlacement, MarketDataUpdate, SystemLog
+
+Task:
+Generate metadata including relevant tags, a concise summary, and potentially sentiment or impact analysis.
+
+Output Format (JSON):
+{
+  "metadata": {
+    "summary": "A brief summary of the memory entry's content.",
+    "tags": ["list", "of", "relevant", "keywords", "or", "categories"],
+    "sentiment": "Positive" | "Negative" | "Neutral" | null, // Optional: Sentiment analysis if applicable
+    "impact_score": 0.0-1.0 | null // Optional: Estimated impact or importance
+  }
+}
+
+Focus on extracting key information and making the memory easily searchable and understandable for future analysis by the AI or optimization components.

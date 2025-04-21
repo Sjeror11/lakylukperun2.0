@@ -1,0 +1,752 @@
+[2025-04-19 01:17:00] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-19 01:17:01] Počáteční hodnota portfolia: $88.63
+[2025-04-19 01:17:01] CYKLUS 1 (2025-04-19 01:17:01)
+[2025-04-19 01:17:01] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:17:03] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:17:03] Čekání 300 sekund na další cyklus
+[2025-04-19 01:21:44] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-19 01:21:44] Počáteční hodnota portfolia: $88.63
+[2025-04-19 01:21:44] CYKLUS 1 (2025-04-19 01:21:44)
+[2025-04-19 01:21:45] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:21:46] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:21:46] Čekání 900 sekund na další cyklus
+[2025-04-19 01:22:03] CYKLUS 2 (2025-04-19 01:22:03)
+[2025-04-19 01:22:03] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:22:05] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:22:05] Čekání 300 sekund na další cyklus
+[2025-04-19 01:26:20] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-19 01:26:21] Počáteční hodnota portfolia: $88.63
+[2025-04-19 01:26:21] CYKLUS 1 (2025-04-19 01:26:21)
+[2025-04-19 01:26:21] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:26:22] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:26:22] Čekání 900 sekund na další cyklus
+[2025-04-19 01:27:05] CYKLUS 3 (2025-04-19 01:27:05)
+[2025-04-19 01:27:05] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:27:06] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:27:06] Čekání 300 sekund na další cyklus
+[2025-04-19 01:32:06] CYKLUS 4 (2025-04-19 01:32:06)
+[2025-04-19 01:32:06] Pozice: BTCUSD: 0.001048 @ $84801.15 | Aktuální cena: $84567.80 | P/L: $-0.24 (-0.28%)
+[2025-04-19 01:32:08] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:32:08] Čekání 300 sekund na další cyklus
+[2025-04-19 01:37:08] CYKLUS 5 (2025-04-19 01:37:08)
+[2025-04-19 01:37:09] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:37:09] Čekání 300 sekund na další cyklus
+[2025-04-19 01:37:52] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-19 01:37:52] Konečná hodnota portfolia: $88.20
+[2025-04-19 01:37:52] Zisk/Ztráta: $-0.43 (-0.49%)
+[2025-04-19 01:38:21] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-19 01:38:22] Konečná hodnota portfolia: $88.20
+[2025-04-19 01:38:22] Zisk/Ztráta: $-0.43 (-0.49%)
+[2025-04-19 01:38:42] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-19 01:38:43] Počáteční hodnota portfolia: $88.20
+[2025-04-19 01:38:43] CYKLUS 1 (2025-04-19 01:38:43)
+[2025-04-19 01:38:44] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:38:44] Čekání 900 sekund na další cyklus
+[2025-04-19 01:53:44] CYKLUS 2 (2025-04-19 01:53:44)
+[2025-04-19 01:53:46] BTCUSD: Žádný obchodní signál
+[2025-04-19 01:53:46] Čekání 900 sekund na další cyklus
+[2025-04-19 02:08:46] CYKLUS 3 (2025-04-19 02:08:46)
+[2025-04-19 02:08:47] BTCUSD: Žádný obchodní signál
+[2025-04-19 02:08:47] Čekání 900 sekund na další cyklus
+[2025-04-19 02:23:47] CYKLUS 4 (2025-04-19 02:23:47)
+[2025-04-19 02:23:49] BTCUSD: Žádný obchodní signál
+[2025-04-19 02:23:49] Čekání 900 sekund na další cyklus
+[2025-04-19 02:38:49] CYKLUS 5 (2025-04-19 02:38:49)
+[2025-04-19 02:38:50] BTCUSD: Žádný obchodní signál
+[2025-04-19 02:38:50] Čekání 900 sekund na další cyklus
+[2025-04-19 02:53:50] CYKLUS 6 (2025-04-19 02:53:50)
+[2025-04-19 02:53:52] BTCUSD: Žádný obchodní signál
+[2025-04-19 02:53:52] Čekání 900 sekund na další cyklus
+[2025-04-19 03:08:52] CYKLUS 7 (2025-04-19 03:08:52)
+[2025-04-19 03:08:53] BTCUSD: Žádný obchodní signál
+[2025-04-19 03:08:53] Čekání 900 sekund na další cyklus
+[2025-04-19 03:23:53] CYKLUS 8 (2025-04-19 03:23:53)
+[2025-04-19 03:23:55] BTCUSD: Žádný obchodní signál
+[2025-04-19 03:23:55] Čekání 900 sekund na další cyklus
+[2025-04-19 03:38:55] CYKLUS 9 (2025-04-19 03:38:55)
+[2025-04-19 03:38:56] BTCUSD: Žádný obchodní signál
+[2025-04-19 03:38:56] Čekání 900 sekund na další cyklus
+[2025-04-19 03:53:56] CYKLUS 10 (2025-04-19 03:53:56)
+[2025-04-19 03:53:58] BTCUSD: Žádný obchodní signál
+[2025-04-19 03:53:58] Čekání 900 sekund na další cyklus
+[2025-04-19 04:08:58] CYKLUS 11 (2025-04-19 04:08:58)
+[2025-04-19 04:09:00] BTCUSD: Žádný obchodní signál
+[2025-04-19 04:09:00] Čekání 900 sekund na další cyklus
+[2025-04-19 04:24:00] CYKLUS 12 (2025-04-19 04:24:00)
+[2025-04-19 04:24:02] BTCUSD: Žádný obchodní signál
+[2025-04-19 04:24:02] Čekání 900 sekund na další cyklus
+[2025-04-19 04:39:02] CYKLUS 13 (2025-04-19 04:39:02)
+[2025-04-19 04:39:05] BTCUSD: Žádný obchodní signál
+[2025-04-19 04:39:05] Čekání 900 sekund na další cyklus
+[2025-04-19 04:54:05] CYKLUS 14 (2025-04-19 04:54:05)
+[2025-04-19 04:54:06] BTCUSD: Žádný obchodní signál
+[2025-04-19 04:54:06] Čekání 900 sekund na další cyklus
+[2025-04-19 05:09:06] CYKLUS 15 (2025-04-19 05:09:06)
+[2025-04-19 05:09:08] BTCUSD: Žádný obchodní signál
+[2025-04-19 05:09:08] Čekání 900 sekund na další cyklus
+[2025-04-19 05:24:08] CYKLUS 16 (2025-04-19 05:24:08)
+[2025-04-19 05:24:09] BTCUSD: Žádný obchodní signál
+[2025-04-19 05:24:09] Čekání 900 sekund na další cyklus
+[2025-04-19 05:39:09] CYKLUS 17 (2025-04-19 05:39:09)
+[2025-04-19 05:39:11] BTCUSD: Žádný obchodní signál
+[2025-04-19 05:39:11] Čekání 900 sekund na další cyklus
+[2025-04-19 05:54:11] CYKLUS 18 (2025-04-19 05:54:11)
+[2025-04-19 05:54:12] BTCUSD: Žádný obchodní signál
+[2025-04-19 05:54:12] Čekání 900 sekund na další cyklus
+[2025-04-19 06:09:12] CYKLUS 19 (2025-04-19 06:09:12)
+[2025-04-19 06:09:14] BTCUSD: Žádný obchodní signál
+[2025-04-19 06:09:14] Čekání 900 sekund na další cyklus
+[2025-04-19 06:24:14] CYKLUS 20 (2025-04-19 06:24:14)
+[2025-04-19 06:24:16] BTCUSD: Žádný obchodní signál
+[2025-04-19 06:24:16] Čekání 900 sekund na další cyklus
+[2025-04-19 06:39:16] CYKLUS 21 (2025-04-19 06:39:16)
+[2025-04-19 06:39:17] BTCUSD: Žádný obchodní signál
+[2025-04-19 06:39:17] Čekání 900 sekund na další cyklus
+[2025-04-19 06:54:17] CYKLUS 22 (2025-04-19 06:54:17)
+[2025-04-19 06:54:18] BTCUSD: Žádný obchodní signál
+[2025-04-19 06:54:18] Čekání 900 sekund na další cyklus
+[2025-04-19 07:09:18] CYKLUS 23 (2025-04-19 07:09:18)
+[2025-04-19 07:09:20] BTCUSD: Žádný obchodní signál
+[2025-04-19 07:09:20] Čekání 900 sekund na další cyklus
+[2025-04-19 07:24:20] CYKLUS 24 (2025-04-19 07:24:20)
+[2025-04-19 07:24:21] BTCUSD: Žádný obchodní signál
+[2025-04-19 07:24:21] Čekání 900 sekund na další cyklus
+[2025-04-19 07:39:21] CYKLUS 25 (2025-04-19 07:39:21)
+[2025-04-19 07:39:23] BTCUSD: Žádný obchodní signál
+[2025-04-19 07:39:23] Čekání 900 sekund na další cyklus
+[2025-04-19 07:54:23] CYKLUS 26 (2025-04-19 07:54:23)
+[2025-04-19 07:54:24] BTCUSD: Žádný obchodní signál
+[2025-04-19 07:54:24] Čekání 900 sekund na další cyklus
+[2025-04-19 08:09:24] CYKLUS 27 (2025-04-19 08:09:24)
+[2025-04-19 08:09:27] BTCUSD: Žádný obchodní signál
+[2025-04-19 08:09:27] Čekání 900 sekund na další cyklus
+[2025-04-19 08:24:27] CYKLUS 28 (2025-04-19 08:24:27)
+[2025-04-19 08:24:30] BTCUSD: Žádný obchodní signál
+[2025-04-19 08:24:30] Čekání 900 sekund na další cyklus
+[2025-04-19 08:39:30] CYKLUS 29 (2025-04-19 08:39:30)
+[2025-04-19 08:39:31] BTCUSD: Žádný obchodní signál
+[2025-04-19 08:39:31] Čekání 900 sekund na další cyklus
+[2025-04-19 08:54:31] CYKLUS 30 (2025-04-19 08:54:31)
+[2025-04-19 08:54:33] BTCUSD: Žádný obchodní signál
+[2025-04-19 08:54:33] Čekání 900 sekund na další cyklus
+[2025-04-19 09:09:33] CYKLUS 31 (2025-04-19 09:09:33)
+[2025-04-19 09:09:34] BTCUSD: Žádný obchodní signál
+[2025-04-19 09:09:34] Čekání 900 sekund na další cyklus
+[2025-04-19 09:24:34] CYKLUS 32 (2025-04-19 09:24:34)
+[2025-04-19 09:24:36] BTCUSD: Žádný obchodní signál
+[2025-04-19 09:24:36] Čekání 900 sekund na další cyklus
+[2025-04-19 09:39:36] CYKLUS 33 (2025-04-19 09:39:36)
+[2025-04-19 09:39:37] BTCUSD: Žádný obchodní signál
+[2025-04-19 09:39:37] Čekání 900 sekund na další cyklus
+[2025-04-19 09:54:37] CYKLUS 34 (2025-04-19 09:54:37)
+[2025-04-19 09:54:39] BTCUSD: Žádný obchodní signál
+[2025-04-19 09:54:39] Čekání 900 sekund na další cyklus
+[2025-04-19 10:04:34] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-19 10:04:34] Konečná hodnota portfolia: $88.20
+[2025-04-19 10:04:34] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-19 10:04:55] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-19 10:04:55] Počáteční hodnota portfolia: $88.20
+[2025-04-19 10:04:55] CYKLUS 1 (2025-04-19 10:04:55)
+[2025-04-19 10:04:56] BTCUSD: Žádný obchodní signál
+[2025-04-19 10:04:56] Čekání 900 sekund na další cyklus
+[2025-04-19 10:19:56] CYKLUS 2 (2025-04-19 10:19:56)
+[2025-04-19 10:19:58] BTCUSD: Žádný obchodní signál
+[2025-04-19 10:19:58] Čekání 900 sekund na další cyklus
+[2025-04-19 10:34:58] CYKLUS 3 (2025-04-19 10:34:58)
+[2025-04-19 10:34:59] BTCUSD: Žádný obchodní signál
+[2025-04-19 10:34:59] Čekání 900 sekund na další cyklus
+[2025-04-19 10:49:59] CYKLUS 4 (2025-04-19 10:49:59)
+[2025-04-19 10:50:01] BTCUSD: Žádný obchodní signál
+[2025-04-19 10:50:01] Čekání 900 sekund na další cyklus
+[2025-04-19 11:05:01] CYKLUS 5 (2025-04-19 11:05:01)
+[2025-04-19 11:05:02] BTCUSD: Žádný obchodní signál
+[2025-04-19 11:05:02] Čekání 900 sekund na další cyklus
+[2025-04-19 11:20:02] CYKLUS 6 (2025-04-19 11:20:02)
+[2025-04-19 11:20:04] BTCUSD: Žádný obchodní signál
+[2025-04-19 11:20:04] Čekání 900 sekund na další cyklus
+[2025-04-19 11:35:04] CYKLUS 7 (2025-04-19 11:35:04)
+[2025-04-19 11:35:06] BTCUSD: Žádný obchodní signál
+[2025-04-19 11:35:06] Čekání 900 sekund na další cyklus
+[2025-04-19 11:50:06] CYKLUS 8 (2025-04-19 11:50:06)
+[2025-04-19 11:50:07] BTCUSD: Žádný obchodní signál
+[2025-04-19 11:50:07] Čekání 900 sekund na další cyklus
+[2025-04-19 12:05:07] CYKLUS 9 (2025-04-19 12:05:07)
+[2025-04-19 12:05:09] BTCUSD: Žádný obchodní signál
+[2025-04-19 12:05:09] Čekání 900 sekund na další cyklus
+[2025-04-19 12:20:09] CYKLUS 10 (2025-04-19 12:20:09)
+[2025-04-19 12:20:10] BTCUSD: Žádný obchodní signál
+[2025-04-19 12:20:10] Čekání 900 sekund na další cyklus
+[2025-04-19 12:35:10] CYKLUS 11 (2025-04-19 12:35:10)
+[2025-04-19 12:35:12] BTCUSD: Žádný obchodní signál
+[2025-04-19 12:35:12] Čekání 900 sekund na další cyklus
+[2025-04-19 12:50:12] CYKLUS 12 (2025-04-19 12:50:12)
+[2025-04-19 12:50:13] BTCUSD: Žádný obchodní signál
+[2025-04-19 12:50:13] Čekání 900 sekund na další cyklus
+[2025-04-19 13:05:13] CYKLUS 13 (2025-04-19 13:05:13)
+[2025-04-19 13:05:15] BTCUSD: Žádný obchodní signál
+[2025-04-19 13:05:15] Čekání 900 sekund na další cyklus
+[2025-04-19 13:20:15] CYKLUS 14 (2025-04-19 13:20:15)
+[2025-04-19 13:20:16] BTCUSD: Žádný obchodní signál
+[2025-04-19 13:20:16] Čekání 900 sekund na další cyklus
+[2025-04-19 13:35:16] CYKLUS 15 (2025-04-19 13:35:16)
+[2025-04-19 13:35:18] BTCUSD: Žádný obchodní signál
+[2025-04-19 13:35:18] Čekání 900 sekund na další cyklus
+[2025-04-19 13:50:18] CYKLUS 16 (2025-04-19 13:50:18)
+[2025-04-19 13:50:19] BTCUSD: Žádný obchodní signál
+[2025-04-19 13:50:19] Čekání 900 sekund na další cyklus
+[2025-04-19 14:05:19] CYKLUS 17 (2025-04-19 14:05:19)
+[2025-04-19 14:05:21] BTCUSD: Žádný obchodní signál
+[2025-04-19 14:05:21] Čekání 900 sekund na další cyklus
+[2025-04-19 14:20:21] CYKLUS 18 (2025-04-19 14:20:21)
+[2025-04-19 14:20:22] BTCUSD: Žádný obchodní signál
+[2025-04-19 14:20:22] Čekání 900 sekund na další cyklus
+[2025-04-19 14:35:22] CYKLUS 19 (2025-04-19 14:35:22)
+[2025-04-19 14:35:24] BTCUSD: Žádný obchodní signál
+[2025-04-19 14:35:24] Čekání 900 sekund na další cyklus
+[2025-04-19 14:50:24] CYKLUS 20 (2025-04-19 14:50:24)
+[2025-04-19 14:50:25] BTCUSD: Žádný obchodní signál
+[2025-04-19 14:50:25] Čekání 900 sekund na další cyklus
+[2025-04-19 15:05:25] CYKLUS 21 (2025-04-19 15:05:25)
+[2025-04-19 15:05:27] BTCUSD: Žádný obchodní signál
+[2025-04-19 15:05:27] Čekání 900 sekund na další cyklus
+[2025-04-19 15:20:27] CYKLUS 22 (2025-04-19 15:20:27)
+[2025-04-19 15:20:28] BTCUSD: Žádný obchodní signál
+[2025-04-19 15:20:28] Čekání 900 sekund na další cyklus
+[2025-04-19 15:35:28] CYKLUS 23 (2025-04-19 15:35:28)
+[2025-04-19 15:35:29] BTCUSD: Žádný obchodní signál
+[2025-04-19 15:35:29] Čekání 900 sekund na další cyklus
+[2025-04-19 15:50:29] CYKLUS 24 (2025-04-19 15:50:29)
+[2025-04-19 15:50:31] BTCUSD: Žádný obchodní signál
+[2025-04-19 15:50:31] Čekání 900 sekund na další cyklus
+[2025-04-19 16:05:31] CYKLUS 25 (2025-04-19 16:05:31)
+[2025-04-19 16:05:32] BTCUSD: Žádný obchodní signál
+[2025-04-19 16:05:32] Čekání 900 sekund na další cyklus
+[2025-04-19 16:20:32] CYKLUS 26 (2025-04-19 16:20:32)
+[2025-04-19 16:20:34] BTCUSD: Žádný obchodní signál
+[2025-04-19 16:20:34] Čekání 900 sekund na další cyklus
+[2025-04-19 16:35:34] CYKLUS 27 (2025-04-19 16:35:34)
+[2025-04-19 16:35:35] BTCUSD: Žádný obchodní signál
+[2025-04-19 16:35:35] Čekání 900 sekund na další cyklus
+[2025-04-19 16:50:35] CYKLUS 28 (2025-04-19 16:50:35)
+[2025-04-19 16:50:37] BTCUSD: Žádný obchodní signál
+[2025-04-19 16:50:37] Čekání 900 sekund na další cyklus
+[2025-04-19 17:05:37] CYKLUS 29 (2025-04-19 17:05:37)
+[2025-04-19 17:05:38] BTCUSD: Žádný obchodní signál
+[2025-04-19 17:05:38] Čekání 900 sekund na další cyklus
+[2025-04-19 17:20:38] CYKLUS 30 (2025-04-19 17:20:38)
+[2025-04-19 17:20:40] BTCUSD: Žádný obchodní signál
+[2025-04-19 17:20:40] Čekání 900 sekund na další cyklus
+[2025-04-19 17:35:40] CYKLUS 31 (2025-04-19 17:35:40)
+[2025-04-19 17:35:42] BTCUSD: Žádný obchodní signál
+[2025-04-19 17:35:42] Čekání 900 sekund na další cyklus
+[2025-04-19 17:50:42] CYKLUS 32 (2025-04-19 17:50:42)
+[2025-04-19 17:50:42] BTCUSD: Žádný obchodní signál
+[2025-04-19 17:50:42] Čekání 900 sekund na další cyklus
+[2025-04-19 18:05:42] CYKLUS 33 (2025-04-19 18:05:42)
+[2025-04-19 18:05:44] BTCUSD: Žádný obchodní signál
+[2025-04-19 18:05:44] Čekání 900 sekund na další cyklus
+[2025-04-19 18:20:44] CYKLUS 34 (2025-04-19 18:20:44)
+[2025-04-19 18:20:45] BTCUSD: Žádný obchodní signál
+[2025-04-19 18:20:45] Čekání 900 sekund na další cyklus
+[2025-04-19 18:35:45] CYKLUS 35 (2025-04-19 18:35:45)
+[2025-04-19 18:35:46] BTCUSD: Žádný obchodní signál
+[2025-04-19 18:35:46] Čekání 900 sekund na další cyklus
+[2025-04-19 18:50:46] CYKLUS 36 (2025-04-19 18:50:46)
+[2025-04-19 18:50:48] BTCUSD: Žádný obchodní signál
+[2025-04-19 18:50:48] Čekání 900 sekund na další cyklus
+[2025-04-19 19:05:48] CYKLUS 37 (2025-04-19 19:05:48)
+[2025-04-19 19:05:49] BTCUSD: Žádný obchodní signál
+[2025-04-19 19:05:49] Čekání 900 sekund na další cyklus
+[2025-04-19 19:20:49] CYKLUS 38 (2025-04-19 19:20:49)
+[2025-04-19 19:20:51] BTCUSD: Žádný obchodní signál
+[2025-04-19 19:20:51] Čekání 900 sekund na další cyklus
+[2025-04-19 19:35:51] CYKLUS 39 (2025-04-19 19:35:51)
+[2025-04-19 19:35:52] BTCUSD: Žádný obchodní signál
+[2025-04-19 19:35:52] Čekání 900 sekund na další cyklus
+[2025-04-19 19:50:52] CYKLUS 40 (2025-04-19 19:50:52)
+[2025-04-19 19:50:54] BTCUSD: Žádný obchodní signál
+[2025-04-19 19:50:54] Čekání 900 sekund na další cyklus
+[2025-04-19 20:05:54] CYKLUS 41 (2025-04-19 20:05:54)
+[2025-04-19 20:05:55] BTCUSD: Žádný obchodní signál
+[2025-04-19 20:05:55] Čekání 900 sekund na další cyklus
+[2025-04-19 20:20:55] CYKLUS 42 (2025-04-19 20:20:55)
+[2025-04-19 20:20:57] BTCUSD: Žádný obchodní signál
+[2025-04-19 20:20:57] Čekání 900 sekund na další cyklus
+[2025-04-19 20:35:57] CYKLUS 43 (2025-04-19 20:35:57)
+[2025-04-19 20:35:58] BTCUSD: Žádný obchodní signál
+[2025-04-19 20:35:58] Čekání 900 sekund na další cyklus
+[2025-04-19 20:50:58] CYKLUS 44 (2025-04-19 20:50:58)
+[2025-04-19 20:51:00] BTCUSD: Žádný obchodní signál
+[2025-04-19 20:51:00] Čekání 900 sekund na další cyklus
+[2025-04-19 21:06:00] CYKLUS 45 (2025-04-19 21:06:00)
+[2025-04-19 21:06:01] BTCUSD: Žádný obchodní signál
+[2025-04-19 21:06:01] Čekání 900 sekund na další cyklus
+[2025-04-19 21:21:01] CYKLUS 46 (2025-04-19 21:21:01)
+[2025-04-19 21:21:02] BTCUSD: Žádný obchodní signál
+[2025-04-19 21:21:02] Čekání 900 sekund na další cyklus
+[2025-04-19 21:36:02] CYKLUS 47 (2025-04-19 21:36:02)
+[2025-04-19 21:36:04] BTCUSD: Žádný obchodní signál
+[2025-04-19 21:36:04] Čekání 900 sekund na další cyklus
+[2025-04-19 21:51:04] CYKLUS 48 (2025-04-19 21:51:04)
+[2025-04-19 21:51:05] BTCUSD: Žádný obchodní signál
+[2025-04-19 21:51:05] Čekání 900 sekund na další cyklus
+[2025-04-19 22:06:05] CYKLUS 49 (2025-04-19 22:06:05)
+[2025-04-19 22:06:09] BTCUSD: Žádný obchodní signál
+[2025-04-19 22:06:09] Čekání 900 sekund na další cyklus
+[2025-04-19 22:21:09] CYKLUS 50 (2025-04-19 22:21:09)
+[2025-04-19 22:21:10] BTCUSD: Žádný obchodní signál
+[2025-04-19 22:21:10] Čekání 900 sekund na další cyklus
+[2025-04-19 22:36:10] CYKLUS 51 (2025-04-19 22:36:10)
+[2025-04-19 22:36:12] BTCUSD: Žádný obchodní signál
+[2025-04-19 22:36:12] Čekání 900 sekund na další cyklus
+[2025-04-19 22:51:12] CYKLUS 52 (2025-04-19 22:51:12)
+[2025-04-19 22:51:14] BTCUSD: Žádný obchodní signál
+[2025-04-19 22:51:14] Čekání 900 sekund na další cyklus
+[2025-04-19 23:06:14] CYKLUS 53 (2025-04-19 23:06:14)
+[2025-04-19 23:06:15] BTCUSD: Žádný obchodní signál
+[2025-04-19 23:06:15] Čekání 900 sekund na další cyklus
+[2025-04-19 23:21:15] CYKLUS 54 (2025-04-19 23:21:15)
+[2025-04-19 23:21:17] BTCUSD: Žádný obchodní signál
+[2025-04-19 23:21:17] Čekání 900 sekund na další cyklus
+[2025-04-19 23:36:17] CYKLUS 55 (2025-04-19 23:36:17)
+[2025-04-19 23:36:18] BTCUSD: Žádný obchodní signál
+[2025-04-19 23:36:18] Čekání 900 sekund na další cyklus
+[2025-04-20 09:53:50] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-20 09:53:51] Počáteční hodnota portfolia: $88.20
+[2025-04-20 09:53:51] CYKLUS 1 (2025-04-20 09:53:51)
+[2025-04-20 09:53:53] BTCUSD: Žádný obchodní signál
+[2025-04-20 09:53:53] Čekání 900 sekund na další cyklus
+[2025-04-20 10:08:53] CYKLUS 2 (2025-04-20 10:08:53)
+[2025-04-20 10:08:54] BTCUSD: Žádný obchodní signál
+[2025-04-20 10:08:54] Čekání 900 sekund na další cyklus
+[2025-04-20 10:23:54] CYKLUS 3 (2025-04-20 10:23:54)
+[2025-04-20 10:23:56] BTCUSD: Žádný obchodní signál
+[2025-04-20 10:23:56] Čekání 900 sekund na další cyklus
+[2025-04-20 10:38:56] CYKLUS 4 (2025-04-20 10:38:56)
+[2025-04-20 10:38:57] BTCUSD: Žádný obchodní signál
+[2025-04-20 10:38:57] Čekání 900 sekund na další cyklus
+[2025-04-20 10:53:57] CYKLUS 5 (2025-04-20 10:53:57)
+[2025-04-20 10:53:59] BTCUSD: Žádný obchodní signál
+[2025-04-20 10:53:59] Čekání 900 sekund na další cyklus
+[2025-04-20 11:08:59] CYKLUS 6 (2025-04-20 11:08:59)
+[2025-04-20 11:09:00] BTCUSD: Žádný obchodní signál
+[2025-04-20 11:09:00] Čekání 900 sekund na další cyklus
+[2025-04-20 11:24:00] CYKLUS 7 (2025-04-20 11:24:00)
+[2025-04-20 11:24:01] BTCUSD: Žádný obchodní signál
+[2025-04-20 11:24:01] Čekání 900 sekund na další cyklus
+[2025-04-20 11:39:01] CYKLUS 8 (2025-04-20 11:39:01)
+[2025-04-20 11:39:03] BTCUSD: Žádný obchodní signál
+[2025-04-20 11:39:03] Čekání 900 sekund na další cyklus
+[2025-04-20 11:54:03] CYKLUS 9 (2025-04-20 11:54:03)
+[2025-04-20 11:54:04] BTCUSD: Žádný obchodní signál
+[2025-04-20 11:54:04] Čekání 900 sekund na další cyklus
+[2025-04-20 12:09:04] CYKLUS 10 (2025-04-20 12:09:04)
+[2025-04-20 12:09:06] BTCUSD: Žádný obchodní signál
+[2025-04-20 12:09:06] Čekání 900 sekund na další cyklus
+[2025-04-20 12:24:06] CYKLUS 11 (2025-04-20 12:24:06)
+[2025-04-20 12:24:08] BTCUSD: Žádný obchodní signál
+[2025-04-20 12:24:08] Čekání 900 sekund na další cyklus
+[2025-04-20 12:39:08] CYKLUS 12 (2025-04-20 12:39:08)
+[2025-04-20 12:39:09] BTCUSD: Žádný obchodní signál
+[2025-04-20 12:39:09] Čekání 900 sekund na další cyklus
+[2025-04-20 12:54:09] CYKLUS 13 (2025-04-20 12:54:09)
+[2025-04-20 12:54:11] BTCUSD: Žádný obchodní signál
+[2025-04-20 12:54:11] Čekání 900 sekund na další cyklus
+[2025-04-20 13:09:11] CYKLUS 14 (2025-04-20 13:09:11)
+[2025-04-20 13:09:12] BTCUSD: Žádný obchodní signál
+[2025-04-20 13:09:12] Čekání 900 sekund na další cyklus
+[2025-04-20 13:50:07] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-20 13:50:08] Počáteční hodnota portfolia: $88.20
+[2025-04-20 13:50:08] CYKLUS 1 (2025-04-20 13:50:08)
+[2025-04-20 13:50:09] BTCUSD: Žádný obchodní signál
+[2025-04-20 13:50:09] Čekání 900 sekund na další cyklus
+[2025-04-20 14:05:09] CYKLUS 2 (2025-04-20 14:05:09)
+[2025-04-20 14:05:10] BTCUSD: Žádný obchodní signál
+[2025-04-20 14:05:10] Čekání 900 sekund na další cyklus
+[2025-04-20 14:20:10] CYKLUS 3 (2025-04-20 14:20:10)
+[2025-04-20 14:20:12] BTCUSD: Žádný obchodní signál
+[2025-04-20 14:20:12] Čekání 900 sekund na další cyklus
+[2025-04-20 14:35:12] CYKLUS 4 (2025-04-20 14:35:12)
+[2025-04-20 14:35:13] BTCUSD: Žádný obchodní signál
+[2025-04-20 14:35:13] Čekání 900 sekund na další cyklus
+[2025-04-20 14:50:13] CYKLUS 5 (2025-04-20 14:50:13)
+[2025-04-20 14:50:15] BTCUSD: Žádný obchodní signál
+[2025-04-20 14:50:15] Čekání 900 sekund na další cyklus
+[2025-04-20 15:05:15] CYKLUS 6 (2025-04-20 15:05:15)
+[2025-04-20 15:05:16] BTCUSD: Žádný obchodní signál
+[2025-04-20 15:05:16] Čekání 900 sekund na další cyklus
+[2025-04-20 15:20:16] CYKLUS 7 (2025-04-20 15:20:16)
+[2025-04-20 15:20:17] BTCUSD: Žádný obchodní signál
+[2025-04-20 15:20:17] Čekání 900 sekund na další cyklus
+[2025-04-20 15:35:17] CYKLUS 8 (2025-04-20 15:35:17)
+[2025-04-20 15:35:19] BTCUSD: Žádný obchodní signál
+[2025-04-20 15:35:19] Čekání 900 sekund na další cyklus
+[2025-04-20 15:50:19] CYKLUS 9 (2025-04-20 15:50:19)
+[2025-04-20 15:50:20] BTCUSD: Žádný obchodní signál
+[2025-04-20 15:50:20] Čekání 900 sekund na další cyklus
+[2025-04-20 16:05:20] CYKLUS 10 (2025-04-20 16:05:20)
+[2025-04-20 16:05:22] BTCUSD: Žádný obchodní signál
+[2025-04-20 16:05:22] Čekání 900 sekund na další cyklus
+[2025-04-20 16:20:22] CYKLUS 11 (2025-04-20 16:20:22)
+[2025-04-20 16:20:23] BTCUSD: Žádný obchodní signál
+[2025-04-20 16:20:23] Čekání 900 sekund na další cyklus
+[2025-04-20 16:35:23] CYKLUS 12 (2025-04-20 16:35:23)
+[2025-04-20 16:35:25] BTCUSD: Žádný obchodní signál
+[2025-04-20 16:35:25] Čekání 900 sekund na další cyklus
+[2025-04-20 16:50:25] CYKLUS 13 (2025-04-20 16:50:25)
+[2025-04-20 16:50:26] BTCUSD: Žádný obchodní signál
+[2025-04-20 16:50:26] Čekání 900 sekund na další cyklus
+[2025-04-20 17:05:26] CYKLUS 14 (2025-04-20 17:05:26)
+[2025-04-20 17:05:27] BTCUSD: Žádný obchodní signál
+[2025-04-20 17:05:27] Čekání 900 sekund na další cyklus
+[2025-04-20 17:20:27] CYKLUS 15 (2025-04-20 17:20:27)
+[2025-04-20 17:20:29] BTCUSD: Žádný obchodní signál
+[2025-04-20 17:20:29] Čekání 900 sekund na další cyklus
+[2025-04-20 17:35:29] CYKLUS 16 (2025-04-20 17:35:29)
+[2025-04-20 17:35:30] BTCUSD: Žádný obchodní signál
+[2025-04-20 17:35:30] Čekání 900 sekund na další cyklus
+[2025-04-20 17:50:30] CYKLUS 17 (2025-04-20 17:50:30)
+[2025-04-20 17:50:32] BTCUSD: Žádný obchodní signál
+[2025-04-20 17:50:32] Čekání 900 sekund na další cyklus
+[2025-04-20 18:05:32] CYKLUS 18 (2025-04-20 18:05:32)
+[2025-04-20 18:05:44] BTCUSD: Žádný obchodní signál
+[2025-04-20 18:05:44] Čekání 900 sekund na další cyklus
+[2025-04-20 18:20:44] CYKLUS 19 (2025-04-20 18:20:44)
+[2025-04-20 18:20:45] BTCUSD: Žádný obchodní signál
+[2025-04-20 18:20:45] Čekání 900 sekund na další cyklus
+[2025-04-20 18:35:45] CYKLUS 20 (2025-04-20 18:35:45)
+[2025-04-20 18:35:47] BTCUSD: Žádný obchodní signál
+[2025-04-20 18:35:47] Čekání 900 sekund na další cyklus
+[2025-04-20 18:50:47] CYKLUS 21 (2025-04-20 18:50:47)
+[2025-04-20 18:52:04] BTCUSD: Žádný obchodní signál
+[2025-04-20 18:52:04] Čekání 900 sekund na další cyklus
+[2025-04-20 19:07:04] CYKLUS 22 (2025-04-20 19:07:04)
+[2025-04-20 19:08:17] BTCUSD: Žádný obchodní signál
+[2025-04-20 19:08:17] Čekání 900 sekund na další cyklus
+[2025-04-20 19:23:17] CYKLUS 23 (2025-04-20 19:23:17)
+[2025-04-20 19:24:02] BTCUSD: Žádný obchodní signál
+[2025-04-20 19:24:02] Čekání 900 sekund na další cyklus
+[2025-04-20 19:39:02] CYKLUS 24 (2025-04-20 19:39:02)
+[2025-04-20 19:39:04] BTCUSD: Žádný obchodní signál
+[2025-04-20 19:39:04] Čekání 900 sekund na další cyklus
+[2025-04-20 19:54:04] CYKLUS 25 (2025-04-20 19:54:04)
+[2025-04-20 19:54:05] BTCUSD: Žádný obchodní signál
+[2025-04-20 19:54:05] Čekání 900 sekund na další cyklus
+[2025-04-20 20:09:05] CYKLUS 26 (2025-04-20 20:09:05)
+[2025-04-20 20:09:07] BTCUSD: Žádný obchodní signál
+[2025-04-20 20:09:07] Čekání 900 sekund na další cyklus
+[2025-04-20 20:24:07] CYKLUS 27 (2025-04-20 20:24:07)
+[2025-04-20 20:24:08] BTCUSD: Žádný obchodní signál
+[2025-04-20 20:24:08] Čekání 900 sekund na další cyklus
+[2025-04-20 20:39:08] CYKLUS 28 (2025-04-20 20:39:08)
+[2025-04-20 20:39:10] BTCUSD: Žádný obchodní signál
+[2025-04-20 20:39:10] Čekání 900 sekund na další cyklus
+[2025-04-20 20:54:10] CYKLUS 29 (2025-04-20 20:54:10)
+[2025-04-20 20:54:12] BTCUSD: Žádný obchodní signál
+[2025-04-20 20:54:12] Čekání 900 sekund na další cyklus
+[2025-04-20 21:09:12] CYKLUS 30 (2025-04-20 21:09:12)
+[2025-04-20 21:09:14] BTCUSD: Žádný obchodní signál
+[2025-04-20 21:09:14] Čekání 900 sekund na další cyklus
+[2025-04-20 21:24:14] CYKLUS 31 (2025-04-20 21:24:14)
+[2025-04-20 21:24:15] BTCUSD: Žádný obchodní signál
+[2025-04-20 21:24:15] Čekání 900 sekund na další cyklus
+[2025-04-20 21:39:15] CYKLUS 32 (2025-04-20 21:39:15)
+[2025-04-20 21:39:16] BTCUSD: Žádný obchodní signál
+[2025-04-20 21:39:16] Čekání 900 sekund na další cyklus
+[2025-04-20 21:54:16] CYKLUS 33 (2025-04-20 21:54:16)
+[2025-04-20 21:54:23] BTCUSD: Žádný obchodní signál
+[2025-04-20 21:54:23] Čekání 900 sekund na další cyklus
+[2025-04-20 22:09:23] CYKLUS 34 (2025-04-20 22:09:23)
+[2025-04-20 22:09:24] BTCUSD: Žádný obchodní signál
+[2025-04-20 22:09:24] Čekání 900 sekund na další cyklus
+[2025-04-20 22:24:24] CYKLUS 35 (2025-04-20 22:24:24)
+[2025-04-20 22:24:26] BTCUSD: Žádný obchodní signál
+[2025-04-20 22:24:26] Čekání 900 sekund na další cyklus
+[2025-04-20 22:39:26] CYKLUS 36 (2025-04-20 22:39:26)
+[2025-04-20 22:39:27] BTCUSD: Žádný obchodní signál
+[2025-04-20 22:39:27] Čekání 900 sekund na další cyklus
+[2025-04-20 22:54:27] CYKLUS 37 (2025-04-20 22:54:27)
+[2025-04-20 22:54:29] BTCUSD: Žádný obchodní signál
+[2025-04-20 22:54:29] Čekání 900 sekund na další cyklus
+[2025-04-20 23:09:29] CYKLUS 38 (2025-04-20 23:09:29)
+[2025-04-20 23:09:31] BTCUSD: Žádný obchodní signál
+[2025-04-20 23:09:31] Čekání 900 sekund na další cyklus
+[2025-04-21 08:56:55] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 08:56:56] Počáteční hodnota portfolia: $88.20
+[2025-04-21 08:56:56] CYKLUS 1 (2025-04-21 08:56:56)
+[2025-04-21 08:57:03] BTCUSD: Žádný obchodní signál
+[2025-04-21 08:57:03] Čekání 900 sekund na další cyklus
+[2025-04-21 09:12:03] CYKLUS 2 (2025-04-21 09:12:03)
+[2025-04-21 09:12:04] BTCUSD: Žádný obchodní signál
+[2025-04-21 09:12:04] Čekání 900 sekund na další cyklus
+[2025-04-21 09:27:04] CYKLUS 3 (2025-04-21 09:27:04)
+[2025-04-21 09:27:06] BTCUSD: Žádný obchodní signál
+[2025-04-21 09:27:06] Čekání 900 sekund na další cyklus
+[2025-04-21 09:35:40] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 09:35:41] Počáteční hodnota portfolia: $88.20
+[2025-04-21 09:35:41] CYKLUS 1 (2025-04-21 09:35:41)
+[2025-04-21 09:35:55] BTCUSD: Žádný obchodní signál
+[2025-04-21 09:35:55] Čekání 900 sekund na další cyklus
+[2025-04-21 09:50:55] CYKLUS 2 (2025-04-21 09:50:55)
+[2025-04-21 09:52:30] BTCUSD: Žádný obchodní signál
+[2025-04-21 09:52:30] Čekání 900 sekund na další cyklus
+[2025-04-21 10:07:30] CYKLUS 3 (2025-04-21 10:07:30)
+[2025-04-21 10:07:32] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:07:32] Čekání 900 sekund na další cyklus
+[2025-04-21 10:17:01] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 10:17:01] Počáteční hodnota portfolia: $88.20
+[2025-04-21 10:17:01] CYKLUS 1 (2025-04-21 10:17:01)
+[2025-04-21 10:17:02] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:17:02] Čekání 900 sekund na další cyklus
+[2025-04-21 10:17:37] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 10:17:37] Konečná hodnota portfolia: $88.20
+[2025-04-21 10:17:37] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 10:22:28] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 10:22:28] Počáteční hodnota portfolia: $88.20
+[2025-04-21 10:22:28] CYKLUS 1 (2025-04-21 10:22:28)
+[2025-04-21 10:22:30] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:22:30] Čekání 900 sekund na další cyklus
+[2025-04-21 10:22:32] CYKLUS 4 (2025-04-21 10:22:32)
+[2025-04-21 10:22:33] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:22:33] Čekání 900 sekund na další cyklus
+[2025-04-21 10:23:06] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 10:23:07] Konečná hodnota portfolia: $88.20
+[2025-04-21 10:23:07] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 10:23:37] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 10:23:37] Počáteční hodnota portfolia: $88.20
+[2025-04-21 10:23:37] CYKLUS 1 (2025-04-21 10:23:37)
+[2025-04-21 10:23:38] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:23:38] Čekání 900 sekund na další cyklus
+[2025-04-21 10:24:13] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 10:24:14] Konečná hodnota portfolia: $88.20
+[2025-04-21 10:24:14] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 10:24:52] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 10:24:52] Počáteční hodnota portfolia: $88.20
+[2025-04-21 10:24:52] CYKLUS 1 (2025-04-21 10:24:52)
+[2025-04-21 10:24:54] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:24:54] Čekání 900 sekund na další cyklus
+[2025-04-21 10:25:29] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 10:25:29] Konečná hodnota portfolia: $88.20
+[2025-04-21 10:25:29] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 10:25:59] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 10:26:00] Počáteční hodnota portfolia: $88.20
+[2025-04-21 10:26:00] CYKLUS 1 (2025-04-21 10:26:00)
+[2025-04-21 10:26:01] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:26:01] Čekání 900 sekund na další cyklus
+[2025-04-21 10:26:37] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 10:26:37] Konečná hodnota portfolia: $88.20
+[2025-04-21 10:26:37] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 10:37:33] CYKLUS 5 (2025-04-21 10:37:33)
+[2025-04-21 10:37:35] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:37:35] Čekání 900 sekund na další cyklus
+[2025-04-21 10:52:35] CYKLUS 6 (2025-04-21 10:52:35)
+[2025-04-21 10:52:36] BTCUSD: Žádný obchodní signál
+[2025-04-21 10:52:36] Čekání 900 sekund na další cyklus
+[2025-04-21 11:07:36] CYKLUS 7 (2025-04-21 11:07:36)
+[2025-04-21 11:07:37] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:07:37] Čekání 900 sekund na další cyklus
+[2025-04-21 11:20:41] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 11:20:42] Počáteční hodnota portfolia: $88.20
+[2025-04-21 11:20:42] CYKLUS 1 (2025-04-21 11:20:42)
+[2025-04-21 11:20:44] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:20:44] Čekání 900 sekund na další cyklus
+[2025-04-21 11:21:18] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 11:21:18] Konečná hodnota portfolia: $88.20
+[2025-04-21 11:21:18] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 11:21:49] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 11:22:37] CYKLUS 8 (2025-04-21 11:22:37)
+[2025-04-21 11:22:39] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:22:39] Čekání 900 sekund na další cyklus
+[2025-04-21 11:37:39] CYKLUS 9 (2025-04-21 11:37:39)
+[2025-04-21 11:37:40] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:37:40] Čekání 900 sekund na další cyklus
+[2025-04-21 11:54:33] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 11:54:33] Počáteční hodnota portfolia: $88.20
+[2025-04-21 11:54:33] CYKLUS 1 (2025-04-21 11:54:33)
+[2025-04-21 11:54:35] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:54:35] Čekání 900 sekund na další cyklus
+[2025-04-21 11:58:13] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 11:58:13] Počáteční hodnota portfolia: $88.20
+[2025-04-21 11:58:13] CYKLUS 1 (2025-04-21 11:58:13)
+[2025-04-21 11:58:15] BTCUSD: Žádný obchodní signál
+[2025-04-21 11:58:15] Čekání 900 sekund na další cyklus
+[2025-04-21 12:13:15] CYKLUS 2 (2025-04-21 12:13:15)
+[2025-04-21 12:13:16] BTCUSD: Žádný obchodní signál
+[2025-04-21 12:13:16] Čekání 900 sekund na další cyklus
+[2025-04-21 12:28:16] CYKLUS 3 (2025-04-21 12:28:16)
+[2025-04-21 12:28:18] BTCUSD: Žádný obchodní signál
+[2025-04-21 12:28:18] Čekání 900 sekund na další cyklus
+[2025-04-21 12:43:18] CYKLUS 4 (2025-04-21 12:43:18)
+[2025-04-21 12:43:19] BTCUSD: Žádný obchodní signál
+[2025-04-21 12:43:19] Čekání 900 sekund na další cyklus
+[2025-04-21 12:58:19] CYKLUS 5 (2025-04-21 12:58:19)
+[2025-04-21 12:58:21] BTCUSD: Žádný obchodní signál
+[2025-04-21 12:58:21] Čekání 900 sekund na další cyklus
+[2025-04-21 13:13:21] CYKLUS 6 (2025-04-21 13:13:21)
+[2025-04-21 13:13:22] BTCUSD: Žádný obchodní signál
+[2025-04-21 13:13:22] Čekání 900 sekund na další cyklus
+[2025-04-21 13:28:22] CYKLUS 7 (2025-04-21 13:28:22)
+[2025-04-21 13:28:24] BTCUSD: Žádný obchodní signál
+[2025-04-21 13:28:24] Čekání 900 sekund na další cyklus
+[2025-04-21 13:43:24] CYKLUS 8 (2025-04-21 13:43:24)
+[2025-04-21 13:43:25] BTCUSD: Žádný obchodní signál
+[2025-04-21 13:43:25] Čekání 900 sekund na další cyklus
+[2025-04-21 13:58:25] CYKLUS 9 (2025-04-21 13:58:25)
+[2025-04-21 13:58:27] BTCUSD: Žádný obchodní signál
+[2025-04-21 13:58:27] Čekání 900 sekund na další cyklus
+[2025-04-21 14:13:27] CYKLUS 10 (2025-04-21 14:13:27)
+[2025-04-21 14:13:28] BTCUSD: Žádný obchodní signál
+[2025-04-21 14:13:28] Čekání 900 sekund na další cyklus
+[2025-04-21 14:22:56] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 14:22:58] Konečná hodnota portfolia: $88.20
+[2025-04-21 14:22:58] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 14:56:28] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 14:56:28] Počáteční hodnota portfolia: $88.20
+[2025-04-21 14:56:28] CYKLUS 1 (2025-04-21 14:56:28)
+[2025-04-21 14:56:30] BTCUSD: Žádný obchodní signál
+[2025-04-21 14:56:30] Čekání 900 sekund na další cyklus
+[2025-04-21 14:58:08] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 14:58:08] Počáteční hodnota portfolia: $88.20
+[2025-04-21 14:58:08] CYKLUS 1 (2025-04-21 14:58:08)
+[2025-04-21 14:58:09] BTCUSD: Žádný obchodní signál
+[2025-04-21 14:58:09] Čekání 900 sekund na další cyklus
+[2025-04-21 14:58:40] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 14:58:41] Konečná hodnota portfolia: $88.20
+[2025-04-21 14:58:41] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 14:58:42] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 14:58:43] Počáteční hodnota portfolia: $88.20
+[2025-04-21 14:58:43] CYKLUS 1 (2025-04-21 14:58:43)
+[2025-04-21 14:58:44] BTCUSD: Žádný obchodní signál
+[2025-04-21 14:58:44] Čekání 900 sekund na další cyklus
+[2025-04-21 15:00:20] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 15:00:21] Konečná hodnota portfolia: $88.20
+[2025-04-21 15:00:21] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 15:13:10] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 15:13:11] Počáteční hodnota portfolia: $88.20
+[2025-04-21 15:13:11] CYKLUS 1 (2025-04-21 15:13:11)
+[2025-04-21 15:13:12] BTCUSD: Žádný obchodní signál
+[2025-04-21 15:13:12] Čekání 900 sekund na další cyklus
+[2025-04-21 16:50:49] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 16:50:50] Počáteční hodnota portfolia: $88.20
+[2025-04-21 16:50:50] CYKLUS 1 (2025-04-21 16:50:50)
+[2025-04-21 16:50:51] BTCUSD: Žádný obchodní signál
+[2025-04-21 16:50:51] Čekání 900 sekund na další cyklus
+[2025-04-21 16:59:40] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 16:59:40] Počáteční hodnota portfolia: $88.20
+[2025-04-21 16:59:40] CYKLUS 1 (2025-04-21 16:59:40)
+[2025-04-21 16:59:42] BTCUSD: Žádný obchodní signál
+[2025-04-21 16:59:42] Čekání 900 sekund na další cyklus
+[2025-04-21 17:00:50] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 17:00:51] Počáteční hodnota portfolia: $88.20
+[2025-04-21 17:00:51] CYKLUS 1 (2025-04-21 17:00:51)
+[2025-04-21 17:00:53] BTCUSD: Žádný obchodní signál
+[2025-04-21 17:00:53] Čekání 900 sekund na další cyklus
+[2025-04-21 17:05:51] CYKLUS 2 (2025-04-21 17:05:51)
+[2025-04-21 17:05:53] BTCUSD: Žádný obchodní signál
+[2025-04-21 17:05:53] Čekání 900 sekund na další cyklus
+[2025-04-21 17:20:53] CYKLUS 3 (2025-04-21 17:20:53)
+[2025-04-21 17:20:54] BTCUSD: Žádný obchodní signál
+[2025-04-21 17:20:54] Čekání 900 sekund na další cyklus
+[2025-04-21 17:35:54] CYKLUS 4 (2025-04-21 17:35:54)
+[2025-04-21 17:35:57] BTCUSD: Žádný obchodní signál
+[2025-04-21 17:35:57] Čekání 900 sekund na další cyklus
+[2025-04-21 17:47:05] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 17:50:57] CYKLUS 5 (2025-04-21 17:50:57)
+[2025-04-21 17:50:58] BTCUSD: Žádný obchodní signál
+[2025-04-21 17:50:58] Čekání 900 sekund na další cyklus
+[2025-04-21 17:54:11] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 17:54:11] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 17:54:12] Počáteční hodnota portfolia: $88.20
+[2025-04-21 17:54:12] Počáteční hodnota portfolia: $88.20
+[2025-04-21 17:54:12] CYKLUS 1 (2025-04-21 17:54:12)
+[2025-04-21 17:54:12] CYKLUS 1 (2025-04-21 17:54:12)
+[2025-04-21 17:54:36] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 17:54:36] Konečná hodnota portfolia: $88.20
+[2025-04-21 17:54:36] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 18:02:05] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 18:02:05] Počáteční hodnota portfolia: $88.20
+[2025-04-21 18:02:05] CYKLUS 1 (2025-04-21 18:02:05)
+[2025-04-21 18:02:07] BTCUSD: Žádný obchodní signál
+[2025-04-21 18:02:07] Čekání 900 sekund na další cyklus
+[2025-04-21 18:03:04] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 18:03:04] Počáteční hodnota portfolia: $88.20
+[2025-04-21 18:03:04] CYKLUS 1 (2025-04-21 18:03:04)
+[2025-04-21 18:03:06] BTCUSD: Žádný obchodní signál
+[2025-04-21 18:03:06] Čekání 900 sekund na další cyklus
+[2025-04-21 18:06:07] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 18:06:08] Počáteční hodnota portfolia: $88.20
+[2025-04-21 18:06:08] CYKLUS 1 (2025-04-21 18:06:08)
+[2025-04-21 18:06:09] BTCUSD: Žádný obchodní signál
+[2025-04-21 18:06:09] Čekání 900 sekund na další cyklus
+[2025-04-21 18:58:40] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:13:52] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:14:44] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:14:45] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:14:45] CYKLUS 1 (2025-04-21 19:14:45)
+[2025-04-21 19:19:34] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:19:34] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:19:34] CYKLUS 1 (2025-04-21 19:19:34)
+[2025-04-21 19:19:36] BTCUSD: Žádný obchodní signál
+[2025-04-21 19:19:36] Čekání 900 sekund na další cyklus
+[2025-04-21 19:21:50] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:21:50] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:21:50] CYKLUS 1 (2025-04-21 19:21:50)
+[2025-04-21 19:21:52] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 19:21:52]   - MACD (526.50) je pod signální linií (598.04) - signál k prodeji
+[2025-04-21 19:21:52] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 19:21:52] Čekání 900 sekund na další cyklus
+[2025-04-21 19:22:49] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:22:49] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:22:49] CYKLUS 1 (2025-04-21 19:22:49)
+[2025-04-21 19:22:51] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 19:22:51]   - MACD (525.54) je pod signální linií (597.84) - signál k prodeji
+[2025-04-21 19:22:51] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 19:22:51] Čekání 900 sekund na další cyklus
+[2025-04-21 19:25:32] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:25:32] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:25:32] CYKLUS 1 (2025-04-21 19:25:32)
+[2025-04-21 19:25:34] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 19:25:34]   - MACD (517.45) je pod signální linií (596.23) - signál k prodeji
+[2025-04-21 19:25:34] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 19:25:34] Čekání 900 sekund na další cyklus
+[2025-04-21 19:26:35] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:26:35] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:26:35] CYKLUS 1 (2025-04-21 19:26:35)
+[2025-04-21 19:26:37] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.90
+[2025-04-21 19:26:37]   - TradingView doporučuje BUY
+[2025-04-21 19:26:37]   - MACD (531.80) je pod signální linií (599.09) - signál k prodeji
+[2025-04-21 19:26:37] Obchod: Provádím obchod: SELL 0.00010000 BTCUSD @ $87000.00
+[2025-04-21 19:26:37] Chyba: Obchod se nezdařil
+[2025-04-21 19:26:37] Čekání 900 sekund na další cyklus
+[2025-04-21 19:29:23] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:29:24] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:29:24] CYKLUS 1 (2025-04-21 19:29:24)
+[2025-04-21 19:29:25] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.90
+[2025-04-21 19:29:25]   - TradingView doporučuje BUY
+[2025-04-21 19:29:25]   - MACD (538.76) je pod signální linií (600.49) - signál k prodeji
+[2025-04-21 19:29:25] Obchod: Provádím obchod: SELL 0.00010000 BTCUSD @ $87000.00
+[2025-04-21 19:29:25] Chyba: Obchod se nezdařil
+[2025-04-21 19:29:25] Čekání 900 sekund na další cyklus
+[2025-04-21 19:44:25] CYKLUS 2 (2025-04-21 19:44:25)
+[2025-04-21 19:44:27] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 19:44:27]   - MACD (520.63) je pod signální linií (596.86) - signál k prodeji
+[2025-04-21 19:44:27] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 19:44:27] Čekání 900 sekund na další cyklus
+[2025-04-21 19:47:53] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 19:47:54] Konečná hodnota portfolia: $88.20
+[2025-04-21 19:47:54] Zisk/Ztráta: $0.00 (0.00%)
+[2025-04-21 19:50:37] === SPUŠTĚNÍ OBCHODNÍHO SYSTÉMU ===
+[2025-04-21 19:50:40] Počáteční hodnota portfolia: $88.20
+[2025-04-21 19:50:40] CYKLUS 1 (2025-04-21 19:50:40)
+[2025-04-21 19:50:42] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 19:50:42]   - MACD (523.46) je pod signální linií (597.43) - signál k prodeji
+[2025-04-21 19:50:42] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 19:50:42] Čekání 900 sekund na další cyklus
+[2025-04-21 20:05:42] CYKLUS 2 (2025-04-21 20:05:42)
+[2025-04-21 20:05:44] Signál: BTCUSD: SELL 0.00010000 @ $87000.00 | Důvěra: 0.60
+[2025-04-21 20:05:44]   - MACD (439.13) je pod signální linií (563.90) - signál k prodeji
+[2025-04-21 20:05:44] Nízká důvěra: Důvěra signálu je příliš nízká (0.60), neprovádím obchod
+[2025-04-21 20:05:44] Čekání 900 sekund na další cyklus
+[2025-04-21 20:10:37] === UKONČENÍ OBCHODNÍHO SYSTÉMU UŽIVATELEM ===
+[2025-04-21 20:10:38] Konečná hodnota portfolia: $88.20
+[2025-04-21 20:10:38] Zisk/Ztráta: $0.00 (0.00%)

@@ -1,0 +1,553 @@
+2025-04-18 23:09:18,797 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:09:41,737 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:10:07,097 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:10:44,146 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:11:07,943 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:12:47,851 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:13:06,882 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:13:40,153 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:13:46,812 - trading_system - INFO - main.py:33 - =============================================
+2025-04-18 23:13:46,813 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-18 23:13:46,813 - trading_system - INFO - main.py:35 - =============================================
+2025-04-18 23:13:46,814 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-18 23:13:46,814 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-18 23:13:46,815 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-18 23:13:47,289 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+2025-04-18 23:13:47,301 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:13:47,304 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-18 23:13:47,305 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:13:47,310 - trading_system - INFO - main.py:68 - =============================================
+2025-04-18 23:13:47,310 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-18 23:13:47,310 - trading_system - INFO - main.py:70 - =============================================
+2025-04-18 23:56:30,427 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:56:33,564 - trading_system - INFO - main.py:33 - =============================================
+2025-04-18 23:56:33,564 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-18 23:56:33,564 - trading_system - INFO - main.py:35 - =============================================
+2025-04-18 23:56:33,565 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-18 23:56:33,565 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-18 23:56:33,565 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-18 23:56:33,960 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+2025-04-18 23:56:33,964 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:56:33,970 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-18 23:56:33,970 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:56:33,974 - trading_system - INFO - main.py:68 - =============================================
+2025-04-18 23:56:33,974 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-18 23:56:33,974 - trading_system - INFO - main.py:70 - =============================================
+2025-04-18 23:56:50,625 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-18 23:56:52,150 - trading_system - INFO - main.py:33 - =============================================
+2025-04-18 23:56:52,150 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-18 23:56:52,150 - trading_system - INFO - main.py:35 - =============================================
+2025-04-18 23:56:52,150 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-18 23:56:52,150 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-18 23:56:52,150 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-18 23:56:52,545 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+2025-04-18 23:56:52,546 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:56:52,548 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-18 23:56:52,549 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: forbidden.
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: forbidden.
+2025-04-18 23:56:52,551 - trading_system - INFO - main.py:68 - =============================================
+2025-04-18 23:56:52,551 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-18 23:56:52,551 - trading_system - INFO - main.py:70 - =============================================
+2025-04-19 00:02:00,954 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-19 00:02:02,999 - trading_system - INFO - main.py:33 - =============================================
+2025-04-19 00:02:02,999 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-19 00:02:02,999 - trading_system - INFO - main.py:35 - =============================================
+2025-04-19 00:02:02,999 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-19 00:02:02,999 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-19 00:02:02,999 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-19 00:02:03,435 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+2025-04-19 00:02:03,437 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:02:03,439 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-19 00:02:03,440 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:02:03,442 - trading_system - INFO - main.py:68 - =============================================
+2025-04-19 00:02:03,442 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-19 00:02:03,443 - trading_system - INFO - main.py:70 - =============================================
+2025-04-19 00:29:53,554 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-19 00:29:58,773 - trading_system - INFO - main.py:33 - =============================================
+2025-04-19 00:29:58,773 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-19 00:29:58,773 - trading_system - INFO - main.py:35 - =============================================
+2025-04-19 00:29:58,774 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-19 00:29:58,774 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-19 00:29:58,774 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-19 00:29:59,256 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+2025-04-19 00:29:59,258 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:29:59,260 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-19 00:29:59,260 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:29:59,263 - trading_system - INFO - main.py:68 - =============================================
+2025-04-19 00:29:59,264 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-19 00:29:59,265 - trading_system - INFO - main.py:70 - =============================================
+2025-04-19 00:31:44,790 - trading_system - INFO - logger.py:48 - Logger 'trading_system' initialized. Console Level: INFO, File Level: DEBUG, Log File: /home/laky/perun/data/logs/trading_system.log
+2025-04-19 00:31:50,704 - trading_system - INFO - main.py:33 - =============================================
+2025-04-19 00:31:50,705 - trading_system - INFO - main.py:34 - === Starting AI Trading System Daemon ===
+2025-04-19 00:31:50,708 - trading_system - INFO - main.py:35 - =============================================
+2025-04-19 00:31:50,710 - trading_system - INFO - daemon.py:37 - Initializing OrchestrationDaemon...
+2025-04-19 00:31:50,713 - trading_system - INFO - daemon.py:44 - Initializing interfaces...
+2025-04-19 00:31:50,718 - trading_system - INFO - brokerage.py:36 - Initializing BrokerageInterface...
+2025-04-19 00:31:51,136 - trading_system - ERROR - brokerage.py:60 - Alpaca API Error during initialization: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+2025-04-19 00:31:51,141 - trading_system - CRITICAL - daemon.py:62 - Initialization failed due to Trading System Error: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:31:51,144 - trading_system - ERROR - daemon.py:67 - Failed to send critical failure notification: 'OrchestrationDaemon' object has no attribute 'notifier'
+2025-04-19 00:31:51,144 - trading_system - CRITICAL - main.py:46 - Trading System failed to start or run: Failed to connect to Alpaca: request is not authorized
+Traceback (most recent call last):
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 45, in __init__
+    account_info = self.api.get_account()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/home/laky/perun/.venv/lib/python3.12/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: request is not authorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/laky/perun/main.py", line 40, in main
+    daemon = OrchestrationDaemon()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/services/orchestration_service/daemon.py", line 45, in __init__
+    self.brokerage = BrokerageInterface()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/laky/perun/src/interfaces/brokerage.py", line 61, in __init__
+    raise BrokerageError(f"Failed to connect to Alpaca: {e}") from e
+src.utils.exceptions.BrokerageError: Failed to connect to Alpaca: request is not authorized
+2025-04-19 00:31:51,148 - trading_system - INFO - main.py:68 - =============================================
+2025-04-19 00:31:51,149 - trading_system - INFO - main.py:69 - === AI Trading System Daemon Exiting ===
+2025-04-19 00:31:51,149 - trading_system - INFO - main.py:70 - =============================================
