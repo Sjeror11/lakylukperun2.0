@@ -1,0 +1,26 @@
+# Core dependencies
+python-dotenv
+requests
+alpaca-trade-api
+openai
+google-generativeai
+# For Mattermost notifications
+mattermostdriver
+# For Memdir AI Organizer (example lightweight model)
+sentence-transformers
+torch # sentence-transformers often requires PyTorch
+transformers # Often needed alongside sentence-transformers
+pydantic # For data models
+schedule # For task scheduling in OrchestrationDaemon
+
+# Testing dependencies
+pytest
+pytest-mock
+
+# Optional: Add other potential dependencies based on future implementation details
+# asyncio # If using async operations extensively
+# pandas # For data manipulation/analysis
+# numpy # For numerical operations
+# schedule # For scheduling tasks like optimization
+# pytest # For testing
+# coverage # For test coverage reports
