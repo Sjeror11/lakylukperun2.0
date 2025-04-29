@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+# Vytvoření virtuálního prostředí a instalace závislostí
+cd /usr/share/perun
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# Nastavení oprávnění
+chmod +x /usr/share/perun/perun_taapi_simple.py
+chmod +x /usr/share/perun/perun_crypto.py
+chmod +x /usr/share/perun/run_simulation.py
+chmod +x /usr/local/bin/perun-trading
+
+# Informace po instalaci
+echo "Perun Trading System byl úspěšně nainstalován!"
+echo "Spusťte příkazem: perun-trading"
+
+exit 0

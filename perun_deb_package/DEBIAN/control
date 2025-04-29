@@ -1,0 +1,11 @@
+Package: lakylinuperun
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.6), python3-pip, python3-venv
+Maintainer: Laky <laky@example.com>
+Description: Perun Trading System
+ Automatický obchodní systém pro kryptoměny
+ využívající technické indikátory z TAAPI.IO.
+ Podporuje obchodování s BTC/USD a ETH/USD.

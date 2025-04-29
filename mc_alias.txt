@@ -1,0 +1,17 @@
+# Přidejte následující řádky do souboru ~/.bashrc
+
+# Alias pro spuštění mc na vzdáleném serveru
+alias rmc='ssh -t $SERVER "export TERM=xterm-256color && export COLORTERM=truecolor && mc -d"'
+
+# Funkce pro připojení k serveru a spuštění mc v konkrétní složce
+function sshmc() {
+    if [ $# -lt 1 ]; then
+        echo "Použití: sshmc [uživatel@]server [cesta]"
+        return 1
+    fi
+    
+    SERVER=$1
+    PATH_TO_OPEN=${2:-.}
+    
+    ssh -t $SERVER "export TERM=xterm-256color && export COLORTERM=truecolor && cd $PATH_TO_OPEN && mc -d"
+}

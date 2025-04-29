@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Perun Trading System
+Comment=Automatický obchodní systém pro kryptoměny
+Exec=x-terminal-emulator -e perun-trading
+Icon=/usr/share/perun/icon.png
+Terminal=true
+Type=Application
+Categories=Finance;
+Keywords=trading;crypto;bitcoin;

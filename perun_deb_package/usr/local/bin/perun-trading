@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Spuštění Perun Trading System
+cd /usr/share/perun
+source .venv/bin/activate
+
+# Zobrazení menu
+echo "===== Perun Trading System ====="
+echo "1) Spustit obchodování s kryptoměnami (TAAPI.IO)"
+echo "2) Spustit obchodování s kryptoměnami (přímé API)"
+echo "3) Spustit simulaci obchodování"
+echo "q) Ukončit"
+echo "============================"
+echo -n "Vyberte možnost: "
+read choice
+
+case $choice in
+    1)
+        python perun_taapi_simple.py
+        ;;
+    2)
+        python perun_crypto.py
+        ;;
+    3)
+        python run_simulation.py
+        ;;
+    q|Q)
+        echo "Ukončuji..."
+        exit 0
+        ;;
+    *)
+        echo "Neplatná volba!"
+        exit 1
+        ;;
+esac
